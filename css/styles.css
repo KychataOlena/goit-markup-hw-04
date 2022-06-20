@@ -18,7 +18,7 @@
    --text-white-color:#FFFFFF;
    --button-color:#F5F4FA;
    --adrress-text-color:rgba(255, 255, 255, 0.6);
-   --hero-bc-color: #2F303A;
+   --hero-bc-color: rgba(47, 48, 58, 0.4);
 }
 .visually{
   display: none;
@@ -142,13 +142,21 @@ text-decoration: none;
 /* hero*/
 
 .hero{
-   text-align: center;
-   background-color: var(--hero-bc-color);
+   max-width: 1600px;
+
+   background-position:center;
+   background-size: cover;
    padding-bottom: 200px;
    padding-top: 200px;
-  
-    
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   
+   background-image:linear-gradient(rgba(47, 48, 58, 0.4), 
+   rgba(47, 48, 58, 0.4)),
+   url(../img/hero.jpg);
 }
+
 .main-title{
    margin-top: 0px;
    margin-bottom: 30px;
@@ -157,10 +165,10 @@ text-decoration: none;
    line-height: 1.36;
    letter-spacing: 0.06em;
    text-transform: uppercase;
-   /* background-color: black; */
+  
    color: var(--text-white-color);
-
-   /* outline: 2px solid tomato;   */
+/* 
+   outline: 2px solid tomato;   */
 
 }
 
