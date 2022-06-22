@@ -27,8 +27,23 @@
             <li class="item-nav"><a href="" class="link">Контакты</a></li>
          </ul>
          <ul class="auth-nav ul">
-            <li class="item-nav"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li class="item-nav"><a href="telto:+38096111111" class="link">+38 096 111 11 11</a></li>
+            <li class="item-nav">
+               <a href="mailto:info@devstudio.com" class="link">
+                  <svg class="mail-svg">
+                     <use href="./img/sprite.svg#icon-mail">
+                     </use>
+                  </svg>
+                  info@devstudio.com
+               </a>
+            </li>
+            <li class="item-nav">
+               <a href="telto:+38096111111" class="link">
+                  <svg class="phone-svg">
+                     <use href="./img/sprite.svg#icon-phone">
+                     </use>
+                  </svg>
+                  +38 096 111 11 11</a>
+               </li>
          </ul>
       </nav>
 </div>
@@ -142,18 +157,62 @@
 
 
 <!-- Footer -->
+
 <footer class="footer">
-   <div class="container">
-      <a href="./index.html" class="logo-footer">
-         <span class="logo-web">Web</span> 
-         <span class="second-lg">Studio</span>
-       </a>
-       <address class="adress">
-         <p class="adress-text">г. Киев, пр-т Леси Украинки, 26 </p>
-         <a href="mailto:info@example.com" class="adress-link">info@example.com</a>
-         <a href="telto:+380991111111" class="adress-link">+38 099 111 11 11</a>
-      </address>
-   
+   <div class="container footer-section">
+      <section class="footer-section-address">
+         <a href="./index.html" class="logo-footer">
+            <span class="logo-web">Web</span> 
+            <span class="second-lg">Studio</span>
+          </a>
+          <address class="adress">
+            <p class="adress-text">г. Киев, пр-т Леси Украинки, 26 </p>
+            <a href="mailto:info@example.com" class="adress-link">info@example.com</a>
+            <a href="telto:+380991111111" class="adress-link">+38 099 111 11 11</a>
+         </address>
+
+      </section>
+     
+      <div>
+         <span class="conect">присоединяйтесь</span>
+         <ul class="social-list-footer">
+            <li class="list">
+               <a href="" class="social-link-footer">
+                  <svg class="sotial-icon">
+                     <use href="./img/sprite.svg#icon-instagram"></use>
+                  </svg>
+               </a>
+
+            </li>
+            <li class="list">
+               <a href="" class="social-link-footer">
+                  <svg class="sotial-icon">
+                     <use href="./img/sprite.svg#icon-twiter"></use>
+                  </svg>
+               </a>
+            </li>
+            <li class="list">
+               <a href="" class="social-link-footer">
+                  <svg class="sotial-icon">
+                     <use  
+                     href="./img/sprite.svg#icon-facebook">
+                     </use>
+                  </svg>
+               </a>
+            </li>
+            <li class="list">
+               <a href="" class="social-link-footer">
+                  <svg class="sotial-icon">
+                     <use  
+                     href="./img/sprite.svg#icon-linkedin">
+                     </use>
+                  </svg>
+               </a>
+            </li>
+         </ul>
+
+      </div>
+
    </div>
 </footer>
 </body>
