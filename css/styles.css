@@ -123,10 +123,27 @@ text-decoration: none;
    margin-right: 48px;
 }
 
-.item-nav{
-   display: block;
- 
+.mail-svg{
+   align-items: baseline;
+   margin-right: 10px;
+   width: 16px;
+   height: 12px;
+   
 }
+
+.mail-svg:hover,
+.phone-svg:hover{
+   fill: var(--color-hover);
+}
+
+
+.phone-svg{
+   align-items: baseline;
+   margin-right: 10px;
+   width: 10px;
+   height: 16px;
+}
+
 
 .auth-nav .link{
 display: inline-flex;
@@ -504,6 +521,10 @@ text-decoration: none;
    padding-bottom: 60px;
    padding-top: 60px;
  
+}
+
+.footer-flex{
+   display: flex;
 }
 .conect{
 font-weight: 700;
